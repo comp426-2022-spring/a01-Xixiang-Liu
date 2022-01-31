@@ -22,7 +22,6 @@ fs.readFile('.www/index.html', 'utf-8', (err, data) => {
         return
         process.exit(1)
     }
-})
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
 // The function should have three responses: 
@@ -40,3 +39,4 @@ server.listen(port, () => {
     console.log('Server listening on port ${port}')
 })
 // That's it! You're all done!
+})
